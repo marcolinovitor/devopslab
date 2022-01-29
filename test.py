@@ -16,5 +16,5 @@ class Test(unittest.TestCase):
 
     def test_conteudo(self):
         # verifica o retorno do conteudo da pagina
-        EXPECTED = "Hello World from DevOps & Cloud Lab!"
+        EXPECTED = "Hello World from DevOps & Cloud Lab! - Vitor Marcolino"
         self.assertEqual(self.result.data.decode('utf-8'), EXPECTED)
